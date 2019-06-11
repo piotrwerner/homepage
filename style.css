@@ -1,0 +1,57 @@
+.header {
+    color: #1460AA;
+}
+
+.aboutme {
+    background: #fefefe;
+}
+
+.headingSecond {
+    color: darkblue;
+    font-size: 20px;
+}
+
+.headingThird {
+    color: darkgreen;
+    font-size: 16 px;
+}
+
+.paragraph {
+    color: darkred;
+}
+
+.monday {
+    background-color: lightcoral;
+}
+
+.tuesday {
+    background-color: lightsalmon;
+}
+
+.wednesday {
+    background-color: lightgoldenrodyellow;
+}
+
+.thursday {
+    background-color: lightgreen;
+}
+
+.friday {
+    background-color: lightblue;
+}
+
+.everyday {
+    background-color: lightslategrey
+}
+
+.footer {
+    font-style: italic;
+}
+
+.paragraph {
+    color: darkblue;
+}
+
+.photo {
+    text-align: center;
+}
