@@ -1,51 +1,33 @@
 body {
-    background-color: lightcyan;
+    background: #fefefe;
 }
 
 .header {
-    color: #1460AA;
+    color: #020122;
 }
 
 .aboutme {
     background: #fefefe;
+    width: 700px;
 }
 
 .headingSecond {
-    color: darkblue;
+    color: #F4442E;
     font-size: 20px;
 }
 
 .headingThird {
-    color: darkgreen;
+    color: #FC9E4F;
+    font-size: 16 px;
+}
+
+.link {
+    color: #020122;
     font-size: 16 px;
 }
 
 .paragraph {
     color: darkred;
-}
-
-.monday {
-    background-color: lightcoral;
-}
-
-.tuesday {
-    background-color: lightsalmon;
-}
-
-.wednesday {
-    background-color: lightgoldenrodyellow;
-}
-
-.thursday {
-    background-color: lightgreen;
-}
-
-.friday {
-    background-color: lightblue;
-}
-
-.everyday {
-    background-color: lightslategrey
 }
 
 .footer {
