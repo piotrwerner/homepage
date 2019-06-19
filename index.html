@@ -10,66 +10,73 @@
 </head>
 
 <body>
-    <main class="main">
-
-        <section class="menu">
-            <a href="index.html" class="link">Strona główna</a>
-            <a href="podstrona.html" class="link">O mnie</a>
+    <section class="navigation">
+        <a class="navigation__link" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="podstrona.html">O mnie</a>
+    </section>
+    <main id="top" class="main">
+    <header class="header">
+        <h1 class="heading">Piotrek Werner | Strona domowa - pozdro github!</h1>
+    </header>
+    <section class="about">
+        <div class="box">Test</div>
+        <h2 class="about__header">Kim jestem?</h2>
+        <p class="about__paragraph">
+            <img class="about__picture" src="piotrek.jpg" alt="werner">
+            Ahoj! Na co dzień jestem mężem Kasi i tatą dwójki maluchów: Adama (rok i trzy czwarte)
+            i Marysi (trzy czwarte). Zawodowo zajmuję się handlem internetowym, ale BARDZO chciałbym zostać
+            radiowcem. No i wierzę Jezusowi. Last but definitely not
+            least.</p>
+            <p class="about__paragraph about__paragraph--color">Jeśli interesuje Cię jak wyglądam - bo o to przecież chodzi w sekcjach "o
+                mnie", wpadnij <a class="about__link" href="podstrona.html">TUTAJ</a>.</p>
+            <p class="about__paragraph">A to mówi o mnie JS:</p>
+            <p class="about__paragraph about__paragraph--js"></p>
+    </section>
+    <section class="routine">
+        <h2 class="routine__heading2">Zawodowy plan tygodnia</h2>
+        <section>
+            <h3 class="routine__heading3">Poniedziałek</h3>
+            <p class="routine__paragraph">Podsumowanie poprzedniego tygodnia. Raport Zielnika, marki tygodnia, newslettera,
+                e-commerce. Analiza zamówień Zielnika. Google Analytics.
+            </p>
         </section>
-
-        <header class="header">
-            <h1 class="heading">Piotrek Werner | Strona domowa - pozdro github!</h1>
-        </header>
-
-        <section class="aboutme">
-            <h2 class="headingSecond">Kim jestem?</h2>
-            <p class="paragraph">Ahoj! Na co dzień jestem mężem Kasi i tatą dwójki maluchów: Adama (rok i trzy czwarte)
-                i Marysi (trzy czwarte). Zawodowo zajmuję się handlem internetowym, ale BARDZO chciałbym zostać
-                radiowcem. No i wierzę Jezusowi. Last but definitely not
-                least.
-                <br>
-                <p class="paragraph">Jeśli interesuje Cię jak wyglądam - bo o to przecież chodzi w sekcjach "o mnie",
-                    wpadnij <a href="podstrona.html" class="link">TUTAJ</a>.</p>
+        <section>
+            <h3 class="routine__heading3">Wtorek</h3>
+            <p class="routine__paragraph">Marka tygodnia na kolejny tydzień. AtomStore.
+            </p>
         </section>
-
-        <section class="routine">
-            <h2 class="headingSecond">Zawodowy plan tygodnia</h2>
-            <section class="monday">
-                <h3 class="headingThird">Poniedziałek</h3>
-                <p class="paragraph">Podsumowanie poprzedniego tygodnia. Raport Zielnika, marki tygodnia, newslettera,
-                    e-commerce. Analiza zamówień Zielnika. Google Analytics.</p>
-            </section>
-            <section class="tuesday">
-                <h3 class="headingThird">Wtorek</h3>
-                <p class="paragraph">Marka tygodnia na kolejny tydzień. AtomStore.</p>
-            </section>
-            <section class="wednesday">
-                <h3 class="headingThird">Środa</h3>
-                <p class="paragraph">Newslettery. Spotkanie wewnętrzne. SEO Nowej Farmacji.</p>
-            </section>
-            <section class="thursday">
-                <h3 class="headingThird">Czwartek</h3>
-                <p class="paragraph">Dodatkowa godzina na produkty.</p>
-            </section>
-            <section class="friday">
-                <h3 class="headingThird">Piątek</h3>
-                <p class="paragraph">Podsumowanie bieżącego tygodnia i zaplanowanie zadań na kolejny tydzień.</p>
-            </section>
-            <section class="everyday">
-                <h3 class="headingThird">Codziennie</h3>
-                <p class="paragraph">Can you FeelIT coming in the air tonight?...</p>
-                <p class="paragraph"> Jeśli myślisz, że chodzi o <a
-                        href="https://www.youtube.com/watch?v=YkADj0TPrJA" class="link">utwór Collinsa</a>, to niestety <b>grubo</b>
-                    się mylisz.
-                </p>
-                <p class="paragraph">Chodzi o <a href="https://www.izielnik.pl/zielnik-feel-it.html" class="link">TO.</a></p>
-            </section>
+        <section>
+            <h3 class="routine__heading3">Środa</h3>
+            <p class="routine__paragraph">Newslettery. Spotkanie wewnętrzne. SEO Nowej Farmacji.
+            </p>
         </section>
+        <section>
+            <h3 class="routine__heading3">Czwartek</h3>
+            <p class="routine__paragraph">Dodatkowa godzina na produkty.
+            </p>
+        </section>
+        <section>
+            <h3 class="routine__heading3">Piątek</h3>
+            <p class="routine__paragraph">Podsumowanie bieżącego tygodnia i zaplanowanie zadań na kolejny tydzień.
+            </p>
+        </section>
+        <section>
+            <h3 class="routine__heading3">Codziennie</h3>
+            <p class="routine__paragraph">Can you FeelIT coming in the air tonight?...</p>
+            <p class="routine__paragraph"> Jeśli myślisz, że chodzi o <a href="https://www.youtube.com/watch?v=YkADj0TPrJA"
+                    class="link">utwór Collinsa</a>, to niestety <b>grubo</b>
+                się mylisz.
+            </p>
+            <p class="routine__paragraph">Chodzi o <a href="https://www.izielnik.pl/zielnik-feel-it.html" class="link">TO.</a>
+            </p>
+        </section>
+    </section>
 
-        <footer class="footer">
-            Strona domowa Piotrka Wernera.
-        </footer>
-        <script src="main.js"></script>
+    <footer class="footer">
+        <a href="#top" class="nagore">Na górę</a>
+        <p>Strona domowa Piotrka Wernera.</p>
+    </footer>
+    <script src="main.js"></script>
     </main>
 </body>
 

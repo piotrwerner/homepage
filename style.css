@@ -1,43 +1,80 @@
 body {
     background: #fefefe;
+    color: #333;
 }
 
 .header {
-    color: #020122;
+    color: #114880;
 }
 
-.aboutme {
-    background: #fefefe;
-    width: 700px;
+.navigation__link {
+    color: #1A936F;
 }
 
-.headingSecond {
-    color: #F4442E;
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+}
+
+.header {
+    margin-bottom: 15px;
+}
+
+.about {
+}
+
+.about__link {
+    color: #1A936F;
+    font-weight: bold;
+}
+
+.about__header {
+    color: #1460aa;
+}
+
+.about__paragraph {
     font-size: 20px;
 }
 
-.headingThird {
-    color: #FC9E4F;
-    font-size: 16 px;
+.about__paragraph--color {
+    color: #ff6700;
+    font-size: 16px;
 }
 
-.link {
-    color: #020122;
-    font-size: 16 px;
+.about__picture {
+    height: 100%;
+    max-height: 100px;
+    display: block;
+    float: left;
+    margin: 0 16px 16px 0;
 }
 
-.paragraph {
-    color: darkred;
+.box {
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 10px solid red;
+    margin: 10px;
+    top: 0;
+}
+
+.routine__heading2 {
+    color: #114880;
+}
+
+.routine__heading3 {
+    color: #1146aa;
 }
 
 .footer {
     font-style: italic;
 }
 
-.paragraph {
-    color: darkblue;
-}
-
-.photo {
-    text-align: center;
+.nagore {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
 }
